@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Packer Template') { 
             steps { 
-                sh 'rm -rvf bakery_base_ubuntu_16'
+                sh 'rm -rvf bakery_base_ubuntu_14'
                 sh 'git clone https://github.com/jakehigg/bakery_base_ubuntu_14.git' 
             }
         }
