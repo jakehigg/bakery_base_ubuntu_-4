@@ -22,7 +22,8 @@
         "OS": "Linux",
         "Release": "Ubuntu14",
         "Role": "Base",
-        "Version": "Latest"
+        "Version": "Latest",
+		"Profile": "None"
      }
   }],
     "provisioners": [
